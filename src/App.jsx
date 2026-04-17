@@ -4,7 +4,7 @@ import {
   CheckCircle, XCircle, Lock, Train, Zap, Cpu, ArrowRight,
   GitCommit, Activity, FileText, Layers, Scale, ListChecks, Network, Cloud,
   TerminalSquare, ShieldAlert, EyeOff, FileCode, Workflow,
-  ChevronLeft, Play, Terminal, Code, Bug, CheckSquare, StopCircle, Sparkles, Loader2
+  ChevronLeft, Play, Terminal, Code, Bug, CheckSquare, StopCircle, Sparkles, Loader2, Video
 } from 'lucide-react';
 
 export default function App() {
