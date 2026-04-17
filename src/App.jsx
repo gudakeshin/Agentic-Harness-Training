@@ -291,7 +291,7 @@ export default function App() {
                 <p className="text-red-400 text-sm font-medium mb-6">Guardrail Node (The Shield)</p>
                 <div className="space-y-4 text-sm text-slate-400">
                   <p><strong className="text-slate-200">What it does:</strong> Validates proposed actions against hard-coded business logic <em>before</em> hitting external systems.</p>
-                  <p><strong className="text-slate-200">Finance Importance:</strong> The ultimate safety net. Blocks actions that violate thresholds (e.g., stopping an auto-post if a variance > $50.00).</p>
+                  <p><strong className="text-slate-200">Finance Importance:</strong> The ultimate safety net. Blocks actions that violate thresholds (e.g., stopping an auto-post if a variance &gt; $50.00).</p>
                 </div>
               </div>
             </div>
@@ -427,7 +427,7 @@ export default function App() {
                     <div className="mt-1"><div className="w-8 h-8 rounded-full bg-emerald-900/50 flex items-center justify-center text-emerald-400 font-bold border border-emerald-800">4</div></div>
                     <div>
                       <h4 className="text-lg font-bold text-slate-200 mb-2">Human-in-the-Loop (HITL) Granularity</h4>
-                      <p className="text-sm text-slate-400 mb-3">Can you set conditional breakpoints? (e.g., pause execution ONLY if the vendor is international OR the amount is > $10k).</p>
+                      <p className="text-sm text-slate-400 mb-3">Can you set conditional breakpoints? (e.g., pause execution ONLY if the vendor is international OR the amount is &gt; $10k).</p>
                       <div className="bg-slate-900 p-3 rounded-lg border border-slate-700 text-xs text-slate-300">
                         <strong className="text-emerald-400">Green Flag:</strong> The framework allows state serialization (saving the job to disk) while waiting asynchronously for a human click.
                       </div>
@@ -661,7 +661,7 @@ export default function App() {
                         <div className="absolute bg-slate-900 border border-emerald-500/50 p-2 rounded-lg shadow-lg flex flex-col items-center">
                           <Shield className="w-4 h-4 text-emerald-400 mb-1" />
                           <span className="text-[8px] font-bold text-emerald-300">Semantic Firewall</span>
-                          <span className="text-[7px] text-slate-400 leading-tight mt-1 text-center">Checks limits (e.g. < $50k)</span>
+                          <span className="text-[7px] text-slate-400 leading-tight mt-1 text-center">Checks limits (e.g. &lt; $50k)</span>
                         </div>
                       </div>
 
@@ -771,7 +771,7 @@ export default function App() {
                       <div className="bg-red-950/40 border border-red-900/50 px-4 py-3 rounded-lg text-xs z-10 flex flex-col items-center shadow-lg shadow-red-900/20">
                         <ShieldAlert className="w-4 h-4 text-red-400 mb-1" />
                         <span className="text-red-300 font-bold mb-1 tracking-wider">POLICY BREACH</span>
-                        <span className="text-[10px] text-red-400/80 font-mono">variance > $50.00</span>
+                        <span className="text-[10px] text-red-400/80 font-mono">variance &gt; $50.00</span>
                       </div>
                       
                       <div className="h-px bg-orange-500/50 w-8 z-0 dashed"></div>
